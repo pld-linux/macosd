@@ -3,7 +3,7 @@ Summary(pl):	MacOSD jest wizualnym frontendem dla PBButtonsD
 Name:		macosd
 Version:	0.3.1
 Release:	0.1
-License:	GPL
+License:	GPL v2
 Group:		Applications
 Source0:	http://dl.exactcode.de/oss/macosd/%{name}-%{version}.tar.bz2
 # Source0-md5:	6ae216880c061587e63dd40661d9c78a
@@ -48,7 +48,7 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc AUTHORS CREDITS ChangeLog NEWS README THANKS TODO
+%doc README THANKS TODO
 
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*
 %attr(755,root,root) %{_bindir}/*
