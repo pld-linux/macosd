@@ -1,12 +1,12 @@
 Summary:	MacOSD is a visualization frontend for PBButtonsD
 Summary(pl):	MacOSD jest wizualnym frontendem dla PBButtonsD
 Name:		macosd
-Version:	0.3.0
+Version:	0.3.1
 Release:	0.1
 License:	GPL v2
 Group:		Applications
 Source0:	http://dl.exactcode.de/oss/macosd/%{name}-%{version}.tar.bz2
-# Source0-md5:	412f94b0597d9dca68874b0902719850
+# Source0-md5:	6ae216880c061587e63dd40661d9c78a
 URL:		http://www.exactcode.de/oss/macosd/
 BuildRequires:	evas-devel >= 0.9.9
 BuildRequires:	pbbuttonsd-lib
