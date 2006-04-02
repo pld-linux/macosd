@@ -10,6 +10,7 @@ Source0:	http://dl.exactcode.de/oss/macosd/%{name}-%{version}.tar.bz2
 URL:		http://www.exactcode.de/oss/macosd/
 BuildRequires:	pbbuttonsd-lib
 BuildRequires:	rpmbuild(macros) >= 1.228
+BuildRequires:	xosd >= 2.2.0
 Requires:	pbbuttonsd
 ExclusiveArch:	ppc
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
