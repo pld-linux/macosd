@@ -1,5 +1,6 @@
-Summary:	MacOSD is a visualization frontend for PBButtonsD
-Summary(pl):	MacOSD jest wizualnym frontendem dla PBButtonsD
+# TODO: optflags
+Summary:	MacOSD - a visualization frontend for PBButtonsD
+Summary(pl):	MacOSD - wizualny frontend dla PBButtonsD
 Name:		macosd
 Version:	0.3.1
 Release:	0.1
@@ -24,6 +25,14 @@ The less-eye-candy-rich Xosd can also be used to render shaped windows
 that work over video overlays. The theme format is
 GtkPBButtons-compatible.
 
+%description -l pl
+MacOSD to frontend wizualizuj±cy dla PBButtonsD - demona obs³uguj±cego
+przyciski i zdarzenia zwi±zane z zasilaniem u¿ywanego na komputerach
+Apple. U¿ywa biblioteki Evas wraz z jej mo¿liwo¶ciami antyaliasingu i
+alpha-blendingu przy rysowaniu. Ubo¿sze w bajery Xosd tak¿e mo¿e byæ
+u¿ywane do rysowania okienek ponad obrazem. Format motywów jest
+kompatybilny z GtkPBButtons.
+
 %prep
 %setup -q
 
@@ -38,9 +47,6 @@ GtkPBButtons-compatible.
 
 %install
 rm -rf $RPM_BUILD_ROOT
-# create directories if necessary
-#install -d $RPM_BUILD_ROOT
-#install -d $RPM_BUILD_ROOT%{_examplesdir}/%{name}-%{version}
 
 %{__make} install \
 	DESTDIR=$RPM_BUILD_ROOT
@@ -51,7 +57,6 @@ rm -rf $RPM_BUILD_ROOT
 %files
 %defattr(644,root,root,755)
 %doc README THANKS TODO
-
 %config(noreplace) %verify(not md5 mtime size) %{_sysconfdir}/*
 %attr(755,root,root) %{_bindir}/*
 %{_datadir}/%{name}
