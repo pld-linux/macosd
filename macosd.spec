@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	MacOSD - a visualization frontend for PBButtonsD
-Summary(pl):	MacOSD - wizualny frontend dla PBButtonsD
+Summary(pl.UTF-8):   MacOSD - wizualny frontend dla PBButtonsD
 Name:		macosd
 Version:	0.3.1
 Release:	0.1
@@ -25,12 +25,12 @@ The less-eye-candy-rich Xosd can also be used to render shaped windows
 that work over video overlays. The theme format is
 GtkPBButtons-compatible.
 
-%description -l pl
-MacOSD to frontend wizualizuj±cy dla PBButtonsD - demona obs≥uguj±cego
-przyciski i zdarzenia zwi±zane z zasilaniem uøywanego na komputerach
-Apple. Uøywa biblioteki Evas wraz z jej moøliwo∂ciami antyaliasingu i
-alpha-blendingu przy rysowaniu. Uboøsze w bajery Xosd takøe moøe byÊ
-uøywane do rysowania okienek ponad obrazem. Format motywÛw jest
+%description -l pl.UTF-8
+MacOSD to frontend wizualizujƒÖcy dla PBButtonsD - demona obs≈ÇugujƒÖcego
+przyciski i zdarzenia zwiƒÖzane z zasilaniem u≈ºywanego na komputerach
+Apple. U≈ºywa biblioteki Evas wraz z jej mo≈ºliwo≈õciami antyaliasingu i
+alpha-blendingu przy rysowaniu. Ubo≈ºsze w bajery Xosd tak≈ºe mo≈ºe byƒá
+u≈ºywane do rysowania okienek ponad obrazem. Format motyw√≥w jest
 kompatybilny z GtkPBButtons.
 
 %prep
