@@ -1,6 +1,6 @@
 # TODO: optflags
 Summary:	MacOSD - a visualization frontend for PBButtonsD
-Summary(pl.UTF-8):   MacOSD - wizualny frontend dla PBButtonsD
+Summary(pl.UTF-8):	MacOSD - wizualny frontend dla PBButtonsD
 Name:		macosd
 Version:	0.3.1
 Release:	0.1
